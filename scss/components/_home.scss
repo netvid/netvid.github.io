@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .header__logo{
+        font-size: var(--h1-font);
+        width: 50%;
+    }
+
+    .header__menu{
+        width: 50%;
+
+    }
+}
+
+
+.home{
+    .home__description{
+        font-size: var(--font-size-normal);
+    }
+}
