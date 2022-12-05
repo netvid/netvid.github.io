@@ -4,13 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My web portfolio</title>
-    <link rel="stylesheet" href="scss/main.scss">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="scss/main.css">
 </head>
 <body>
 
-    <h1>Testing test</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repudiandae sed nobis, modi, odit sint repellat nemo ut ullam ipsa dolorum itaque a. Iusto nobis, repudiandae nulla iste esse inventore dolor ipsam, quia consectetur atque reiciendis maxime porro explicabo recusandae.</p>
+    <div class="header">
+        <div class="header__logo">
+            <h1>netvid</h1>
+        </div>
+
+        <div class="header__menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Proyects</a></li>
+                <li><a href="#">Contact mme</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="home">
+        <div class="home__description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repudiandae sed nobis, modi, odit sint repellat nemo ut ullam ipsa dolorum itaque a. Iusto nobis, repudiandae nulla iste esse inventore dolor ipsam, quia consectetur atque reiciendis maxime porro explicabo recusandae.</p>
+        </div>
+        <button type="button">
+            <h4>Ir hacia abajo</h4>
+        </button>
+    </section>
+
+    <section class="proyects">
+        <h2 class="proyects__title">These are my currently proyects</h2>
+        <div class="proyects__card card">
+            <h1>Card 01</h1>
+        </div>
+
+        <div class="proyects__card card">
+            <h1>Card 02</h1>
+        </div>
+
+        <div class="proyects__card card">
+            <h1>Card 03<h1>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <form action="" class="contact">
+            <input type="text" placeholder="Introduce tu nombre" size="30">
+
+
+        </form>
+    </section>
+
+
+
+
     
 </body>
 </html>
