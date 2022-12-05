@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    .header__logo{
+        font-size: var(--h1-font);
+        width: 60%;
+    }
+    .header__menu{
+        width: 40%;
+
+        ul{
+            li{
+                display: inline-block;
+            }
+        }
+    }
+}

@@ -1,21 +1,25 @@
+:root {
+  --h1-font: 2.5rem;
+  --font-size-normal: 1.3rem;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   width: 100%;
+  border-bottom: 2px solid #000;
 }
 .header .header__logo {
   font-size: var(--h1-font);
-  width: 50%;
+  width: 60%;
 }
 .header .header__menu {
-  width: 50%;
+  width: 40%;
+}
+.header .header__menu ul li {
+  display: inline-block;
 }
 
 .home .home__description {
   font-size: var(--font-size-normal);
-}
-
-:root {
-  --h1-font: 2.5rem;
-  --font-size-normal: 1.3rem;
 }/*# sourceMappingURL=main.css.map */
