@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
 :root{
+    --font-family: 'Archivo Narrow', sans-serif;
     --h1-font: 2.5rem;
     --font-size-normal: 1.3rem;
+}
+*{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }

@@ -1,18 +1,34 @@
 .header{
+    font-family: var(--font-family);
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 15%;
     border-bottom: 2px solid #000;
+    text-align: center;
+
     .header__logo{
+        display: flex;
+        align-items: center;
         font-size: var(--h1-font);
+        padding-left: 5%;
         width: 60%;
     }
     .header__menu{
+        display: flex;
+        align-items: center;
         width: 40%;
 
         ul{
+            width: 100%;
             li{
                 display: inline-block;
+                a{
+                    color: #000;
+                    margin: 0 25px;
+                    padding: 10px 10px;
+                    border: 2px solid #001;
+                }
             }
         }
     }

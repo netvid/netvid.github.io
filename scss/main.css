@@ -1,25 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
 :root {
+  --font-family: "Archivo Narrow", sans-serif;
   --h1-font: 2.5rem;
   --font-size-normal: 1.3rem;
 }
 
+* {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
 .header {
+  font-family: var(--font-family);
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 15%;
   border-bottom: 2px solid #000;
+  text-align: center;
 }
 .header .header__logo {
+  display: flex;
+  align-items: center;
   font-size: var(--h1-font);
+  padding-left: 5%;
   width: 60%;
 }
 .header .header__menu {
+  display: flex;
+  align-items: center;
   width: 40%;
+}
+.header .header__menu ul {
+  width: 100%;
 }
 .header .header__menu ul li {
   display: inline-block;
 }
+.header .header__menu ul li a {
+  color: #000;
+  margin: 0 25px;
+  padding: 10px 10px;
+  border: 2px solid #001;
+}
 
+.home {
+  height: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 20%;
+}
 .home .home__description {
   font-size: var(--font-size-normal);
 }/*# sourceMappingURL=main.css.map */
